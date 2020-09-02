@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocIndexer", "DocIndexer.csproj", "{75A0B568-3CCD-447D-BE3C-1357028F4076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75A0B568-3CCD-447D-BE3C-1357028F4076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A0B568-3CCD-447D-BE3C-1357028F4076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A0B568-3CCD-447D-BE3C-1357028F4076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A0B568-3CCD-447D-BE3C-1357028F4076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A39329E2-9196-4660-B2D7-2C4C47B71BE9}
+	EndGlobalSection
+EndGlobal
