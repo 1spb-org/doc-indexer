@@ -413,5 +413,15 @@ namespace DocIndexer
             CreateIndex();
 
         }
+
+        private void visit1spborgToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("http://1spb.org/?src=g-doc-indexer");
+        }
+
+        private void projectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/1spb-org/doc-indexer");
+        }
     }
 }
