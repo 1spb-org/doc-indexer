@@ -132,6 +132,8 @@ namespace DocIndexer
 
                 SaveIndex();
                 JProgressSet(100, "Done.");
+
+                ClickFilter();
             });
         }
 
@@ -196,8 +198,14 @@ namespace DocIndexer
 
             JProgressSet(100, "Done.");
 
+            ClickFilter();
+
         }
 
+        private void ClickFilter()
+        {
+            Invoke(new Action(() => btFilter_Click(null, null)));
+        }
 
         private void SaveConfig()
         {
